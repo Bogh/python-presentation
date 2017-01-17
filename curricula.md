@@ -20,7 +20,7 @@
 	- Polymorphism
 	- Iterators and Generators
 	- Generator Expressions
-- Erori si exceptii
+- Errors and Exceptions
 	- Errors
 	- Handling and Raising Exceptions
 	- Defining own Exceptions
@@ -39,24 +39,48 @@
 
 
 ## Day 2: *Django Web Development*
-- Views
-- Templates
+- Installing
+- Settings and configuration
+- Creating pages
+	- Creating views
+	- Configuring urls and routing
+	- Response objects
+- Layout and Templates
+	- Introduction to templates
+	- Rendering a template from a view
+	- Tags and filters
+	- Template Extending and inclusions
 - Models
+	- Configuring a database
+	- Defining models and relations
+	- Creating Migrations
+	- Querying models
 - Forms
-- Using Sessions
-- Built in views
-- Sending emails
+	- Defining forms
+	- Model forms
+	- Using forms in views
+	- Common uses for forms
 - Admin site
+- Using Sessions
+	- User authentication
+- Generic views
+	- Introduction to generic views
+	- Examples and uses for generic views
 
 
 ## Day 3 *Advanced django development*
 
+- Testing Django Web Applications
 - Middlewares and Request/Response insight
+- Advanced queries
+- Sending emails
+- Creating custom template tags and filters
+- Advanced Django Form Usage
+- Class based views
 - Signals
 - Pagination
 - Caching
 - Messages framework
-- Class based views
 - Django REST framework - building a REST API
 - Deploying django
 
